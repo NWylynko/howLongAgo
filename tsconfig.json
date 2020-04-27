@@ -1,11 +1,9 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
-    "allowSyntheticDefaultImports": true,
-    "lib": ["ES2020"],
+    "lib": ["es2018"],
     "module": "commonjs",
-    "moduleResolution": "node",
-    "target": "es5",
+    "target": "es2018",
     "declaration": true,
     "alwaysStrict": true,
   },

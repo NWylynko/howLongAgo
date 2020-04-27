@@ -4,9 +4,8 @@ export default function time(timestamp: number, Endings = {
   H: " Hours Ago",
   D: " Days Ago",
   ELSE: "A really long time ago"
-}, nowTimeStamp?: number) {
-  let now = nowTimeStamp || Date.now()
-  let difference: number = now  - timestamp
+}, nowTimeStamp: number = Date.now()) {
+  let difference: number = nowTimeStamp - timestamp
 
   if (difference <= 1000 * 60) {
     return Math.trunc(difference / 1000) + Endings.S
