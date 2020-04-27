@@ -4,7 +4,7 @@ export default function time(timestamp: number, Endings = {
   H: " Hours Ago",
   D: " Days Ago",
   ELSE: "A really long time ago"
-}, nowTimeStamp: number) {
+}, nowTimeStamp?: number) {
   let now = nowTimeStamp || Date.now()
   let difference: number = now  - timestamp
 
