@@ -3,7 +3,7 @@ tiny dependency free package to get human readable time from timestamp
 
 ## usage
 
-`
+```
 
 import HowLongAgo from '@nwylynko/how-long-ago'
 
@@ -15,4 +15,4 @@ console.log(HowLongAgo(timestamp))
 
 2 Seconds Ago
 
-`
+````
